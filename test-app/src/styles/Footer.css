@@ -1,0 +1,14 @@
+.footer {
+
+  margin: 0px;
+  padding: 0px 5px;
+  text-align: center;
+  color: rgb(182, 147, 80);
+  display: block;
+  position: fixed;
+  top: 0%;
+  left: 75%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+
+}

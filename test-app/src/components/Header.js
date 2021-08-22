@@ -3,17 +3,20 @@ import '../styles/Bg.css';
 import InstagramButton from './InstagramButton.js';
 import AboutButton from './AboutButton.js';
 import GlamLogo from './GlamLogo.js';
+import Title from './Title.js';
 
 const Header = () => {
 
   return (
     <div>
 
-    <AboutButton />
+      <Title />
 
-    <InstagramButton />
+      <AboutButton />
 
-    <GlamLogo />
+      <InstagramButton />
+
+      <GlamLogo />
 
     </div>
   )

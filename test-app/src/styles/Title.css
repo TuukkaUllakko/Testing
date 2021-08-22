@@ -1,0 +1,14 @@
+.title {
+  margin: 0px;
+  padding: 15px 45px;
+  text-align: center;
+  color: rgb(182, 147, 80);
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 69px;
+  font-weight: 100;
+  text-decoration-color: aqua;
+}

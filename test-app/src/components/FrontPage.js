@@ -1,5 +1,6 @@
-import Header from "./Header";
-import Bg from "./Bg";
+import Header from "./Header.js";
+import Bg from "./Bg.js";
+import Footer from './Footer.js'
 
 const FrontPage = () => {
   
@@ -8,6 +9,7 @@ const FrontPage = () => {
     <div>
       <Bg/>
       <Header/>
+      <Footer/>
     </div>
 
   )
