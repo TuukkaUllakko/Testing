@@ -2,12 +2,10 @@ import "../styles/Button.css"
 
 const Button = () => {
   return (
-    <div>
-      <a href="https://reactjs.org">
-        <button type="button" class="button">Learn React!</button>
-      </a>
 
-    </div>
+      <a href="https://reactjs.org">
+        <div class="button"><span>Learn React </span></div>
+      </a>
   )
 }
 
