@@ -1,15 +1,17 @@
 import Header from "./Header.js";
 import Bg from "./Bg.js";
 import Footer from './Footer.js'
+import Title from './Title.js';
 
 const FrontPage = () => {
   
   return (
 
     <div>
-      <Bg/>
+      <Title/>
       <Header/>
       <Footer/>
+      <Bg/>
     </div>
 
   )
