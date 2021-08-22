@@ -1,10 +1,6 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
+.bgcontainer {
   background-color: #d6a0d6;
-  background-image: url("../treatYourselfBg.png");
+  background-image: url("../rainingBg.gif");
   background-size: cover;
   min-height: 200vh;
   display: flex;

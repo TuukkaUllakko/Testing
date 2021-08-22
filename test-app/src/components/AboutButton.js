@@ -4,7 +4,7 @@ const AboutButton = () => {
   return (
 
       <a href="https://reactjs.org">
-        <div class="abbutton"><span>About </span></div>
+        <div className="abbutton"><span>About </span></div>
       </a>
   )
 }

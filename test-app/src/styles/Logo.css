@@ -1,6 +1,8 @@
-.App-logo {
-    height: 300px;
-    pointer-events: none;
-    position: sticky;
-    top: 4rem;
+.logo {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    max-width: 20%;
 }
