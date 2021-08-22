@@ -1,19 +1,20 @@
-import logo from '../logo.svg';
+import glamLogo from '../glamLogo.png';
 import '../styles/Logo.css'
 import '../styles/App.css';
-import Button from './Button.js';
+import InstagramButton from './InstagramButton.js';
+import AboutButton from './AboutButton.js';
 
 const FrontPage = () => {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
 
-        <img src={logo} className="App-logo" alt="logo" />
+      <AboutButton />
+      <InstagramButton />
 
-        <Button />
-
+        <img src={glamLogo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Site created and maintained by Tuukka Ullakko.
         </p>
 
       </header>
